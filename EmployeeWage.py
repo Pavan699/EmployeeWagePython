@@ -24,11 +24,11 @@ def check_emp_wage():
     check = random.randint(0,1)
     # if 1-> Present is 0-> Absent
     if check == 1:
-        print("Employee is present")
+        print("Employee is Full-Time")
         emp_work_hour = 8
     else:
-        print("Employee is absent")
-        emp_work_hour = 0
+        print("Employee is Part-Time")
+        emp_work_hour = 4
     
     #Calculating Daliy Wage
     daliy_wage = emp_work_hour * WAGE_PER_HOUR
